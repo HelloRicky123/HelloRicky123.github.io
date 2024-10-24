@@ -1,6 +1,6 @@
 
 <p><span style="font-family:georgia,serif;"><span style="font-size:26px;">Academic & Work Experiences</span></span></p>
-
+lala
 - Assistant Professor, [Department of Computer Science](https://www.comp.hkbu.edu.hk/), [Hong Kong Baptist University](https://www.hkbu.edu.hk/), Hong Kong
 - Senior Algorithm Engineer, [Omnivision Technologies Inc.](https://www.ovt.com/), Singapore
 - Post-doctoral Research Fellow, [ST Engineering](https://www.stengg.com/)-NTU Corporate Laboratory, Singapore
