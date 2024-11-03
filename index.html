@@ -60,16 +60,6 @@ Research Interests
 News and Opportunities
 </span></u></strong></p>
 
-<script>
-    const markdown = `
-    * **[ACM MM]** **Ruiqi Zhang**, Jie Chen, "Mesh-Centric Gaussian Splatting for Human Avatar Modelling with Real-time Dynamic Mesh Reconstruction," _ACM International Conference on Multimedia_, pp. 1-10, 2024
-    * **[ACM MM]** **Ruiqi Zhang**, Jie Chen, Qiang Wang, "Explicifying Neural Implicit Fields for Efficient Dynamic Human Avatar Modeling via a Neural Explicit Surface," _ACM International Conference on Multimedia_, pp. 2183-2188, 2023 arXiv
-    * **[ECCV]** **Ruiqi Zhang**, Jie Chen, "NDF: Neural Deformable Fields for Dynamic Human Modelling," in Proc. _European Conference on Computer Vision_, pp. 37-52, Tel Aviv, Israel, 2022 arXiv code
-    `;
-
-    document.getElementById('markdown-content').innerHTML = marked(markdown);    
-</script>
-
 <p style="color: #000000; font-size: 16px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify;">
 * **[ACM MM]** **Ruiqi Zhang**, Jie Chen, "Mesh-Centric Gaussian Splatting for Human Avatar Modelling with Real-time Dynamic Mesh Reconstruction," _ACM International Conference on Multimedia_, pp. 1-10, 2024
 * **[ACM MM]** **Ruiqi Zhang**, Jie Chen, Qiang Wang, "Explicifying Neural Implicit Fields for Efficient Dynamic Human Avatar Modeling via a Neural Explicit Surface," _ACM International Conference on Multimedia_, pp. 2183-2188, 2023 [[arXiv](https://arxiv.org/abs/2308.05112)]
@@ -78,6 +68,24 @@ News and Opportunities
 
 
 <body>	
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=aBK4cNQ8rtdQZ6IyFCz_meRspQnbt6HCflrxboJYPJs&cl=ffffff&w=a" style="width: 400px;"></script>
+    <div id="markdown-content">
+        <!-- 这里将显示渲染后的 Markdown 内容 -->
+    </div>
+    
+    <script>
+        // 你的 Markdown 内容
+        const markdown = `
+        * **[ACM MM]** **Ruiqi Zhang**, Jie Chen, "Mesh-Centric Gaussian Splatting for Human Avatar Modelling with Real-time Dynamic Mesh Reconstruction," _ACM International Conference on Multimedia_, pp. 1-10, 2024
+        * **[ACM MM]** **Ruiqi Zhang**, Jie Chen, Qiang Wang, "Explicifying Neural Implicit Fields for Efficient Dynamic Human Avatar Modeling via a Neural Explicit Surface," _ACM International Conference on Multimedia_, pp. 2183-2188, 2023 arXiv
+        * **[ECCV]** **Ruiqi Zhang**, Jie Chen, "NDF: Neural Deformable Fields for Dynamic Human Modelling," in Proc. _European Conference on Computer Vision_, pp. 37-52, Tel Aviv, Israel, 2022 arXiv code
+        `;
+
+        // 使用 marked.js 渲染 Markdown 内容
+        document.getElementById('markdown-content').innerHTML = marked(markdown);
+    </script>    
+
+    <div id="clustrmaps-container" style="width: 300px;">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=aBK4cNQ8rtdQZ6IyFCz_meRspQnbt6HCflrxboJYPJs&cl=ffffff&w=a"></script>
+    </div>
 </body> 		
 
