@@ -22,20 +22,20 @@ description: Welcome
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:
+# navbar-links:
  # About Me: "aboutme"
  # Resources:
  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
  
-  More About Me: "pages/aboutme/"
+  # More About Me: "pages/aboutme/"
   
-  Publications: "pages/mypublications/"  
+  # Publications: "pages/mypublications/"  
   
-  Professional Services: "pages/services/"
+  # Professional Services: "pages/services/"
   
-  Topics & Resources:
-    - Selected Topics: "highlights/"
-    - Data & Codes: "pages/data_codes/"
+  # Topics & Resources:
+  #   - Selected Topics: "highlights/"
+  #   - Data & Codes: "pages/data_codes/"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
